@@ -2,16 +2,19 @@ import { NgModule,ModuleWithProviders } from '@angular/core';
 
 //components
 import{ NavbarComponent } from './components/navbar/navbar.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
     declarations: [
-        NavbarComponent
+        NavbarComponent,
+        FooterComponent
     ],
     imports: [
 
     ],
     exports: [
-        NavbarComponent
+        NavbarComponent,
+        FooterComponent
     ],
     providers: [],
 
