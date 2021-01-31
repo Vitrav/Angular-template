@@ -6,7 +6,7 @@ import { Component, OnInit } from "@angular/core";
     templateUrl: "./kitchensink.component.html",
   })
 
-  export class KichensinkComponent implements OnInit {
+  export class KitchensinkComponent implements OnInit {
       constructor(){}
 
       ngOnInit(){
