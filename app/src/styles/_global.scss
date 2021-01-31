@@ -1,0 +1,20 @@
+/* Global styles
+   ========================================================================== */
+@import './settings';
+
+   html {
+    font-size: 100%;
+    min-height: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    font-family: $font-regular;
+    overflow-x: hidden;
+    padding-top: $mobile-padding;
+
+    @include breakpoint($ipad-horizontal){
+        padding-top: $desktop-padding;
+    }
+}
