@@ -1,7 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 
 @Component({
-    selector: "kitchensink-page",
+    selector: "app-router",
     styleUrls: ["./kitchensink.component.scss"],
     templateUrl: "./kitchensink.component.html",
   })
