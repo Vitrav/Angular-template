@@ -18,3 +18,12 @@ body {
         padding-top: $desktop-padding;
     }
 }
+
+.container{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1640px;
+    padding: 0 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
