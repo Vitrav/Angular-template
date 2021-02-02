@@ -17,6 +17,7 @@ const routes: Routes = [
     },
     {
       path: 'home',
+      //TODO: Create childrens if needed 
       // loadChildren: () =>
       //   import('./pages/home/home.component').then(
       //     (m) => m.HomeComponent
